@@ -13,6 +13,13 @@
 | **Solution** | A monetization team (with a built-in trust reviewer that can block a bad plan) and a campaign team that buys media directly from each ad platform's agent. |
 | **Result (demo)** | **+$704K net per month** for a 2.4M-user AI app with no ads on sensitive topics, and **18–34% more customers** for local businesses on the same budget. |
 
+## Executive summary
+
+- **Why we built it.** Ads are moving into AI assistants. AI apps need a way to pay for free users without losing their trust, and small businesses need a way to buy this new kind of ad without a media team.
+- **What we built.** Two agent teams on one platform. The monetization team designs pricing and ads for an AI app, and a trust reviewer can block any plan that puts ads where they don't belong. The campaign team plans, buys, and optimizes ads for a local business, buying directly from each platform's agent.
+- **Why it matters.** The demo app adds about $700K a month without ads on health or money questions, and local businesses get 18–34% more customers on the same budget.
+- **What it proves.** AI agents can make revenue decisions with guardrails built in: every number comes from a tool, every step is in the trace, and the trust rules are plain files the business owns and can audit.
+
 ## How it works
 
 **Analyze → Design → Trust review → Test → Decide** for the AI app. **Research → Create → Buy from platforms → Optimize weekly → Report** for the business. Every agent follows a short written playbook (a "skill") that the business owns, and every step is visible in a live trace.
