@@ -57,7 +57,7 @@ const CASES: UseCase[] = [
   },
   {
     area: 'Advertising', who: 'Ad platform trust team',
-    title: 'Review AI-generated ads before they serve',
+    title: 'Review AI-generated ads before they run',
     problem: 'Advertisers now generate thousands of ad variants a day. Human review can’t keep up with policy checks.',
     agents: 'Trust Reviewer, Creative Director (fixes), with escalation to a person',
     newSkill: 'ad-policy-review: platform rules, restricted categories, appeals',
