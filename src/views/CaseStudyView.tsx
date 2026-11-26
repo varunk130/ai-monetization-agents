@@ -73,7 +73,7 @@ export function CaseStudyView() {
           </div>
           <div className="cs-hero-stat">
             <div className="v">3x+</div>
-            <div className="k">growth in consumer spending in AI apps in 2025, to $4–5B [3]</div>
+            <div className="k">growth in consumer spending in AI apps in 2025, to $4–5B <Ref n={3} /></div>
           </div>
           <div className="cs-hero-stat">
             <div className="v">+{k(d.gainNet)}</div>
