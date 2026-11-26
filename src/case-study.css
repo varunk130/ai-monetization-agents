@@ -96,6 +96,8 @@
 .cs-layer .t { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2); }
 .cs-layer .v { font-size: 24px; font-weight: 800; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
 .cs-layer .d { font-size: 13.5px; color: var(--ink-2); line-height: 1.45; }
+.cs sup a { color: inherit; font-weight: 700; text-decoration: none; }
+.cs sup a:hover { text-decoration: underline; }
 .cs-layer sup a { color: var(--cs-1); font-weight: 700; text-decoration: none; }
 .cs-growth { margin-top: 18px; display: grid; gap: 10px; }
 .cs-growth-row { display: grid; grid-template-columns: 120px 1fr 90px; gap: 10px; align-items: center; font-size: 13px; }
