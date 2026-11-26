@@ -69,7 +69,7 @@ export function CaseStudyView() {
         <div className="cs-hero-stats">
           <div className="cs-hero-stat">
             <div className="v">$26B</div>
-            <div className="k">US AI search ad spend by 2029, up from ~$2B in 2026 [1]</div>
+            <div className="k">US AI search ad spend by 2029, up from ~$2B in 2026 <Ref n={1} /></div>
           </div>
           <div className="cs-hero-stat">
             <div className="v">3x+</div>
