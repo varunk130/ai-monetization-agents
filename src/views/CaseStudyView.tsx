@@ -308,7 +308,7 @@ export function CaseStudyView() {
               tone: '#0891b2',
               rows: [
                 ['CS', 'Campaign Strategist', 'Owns the plan and the report.'],
-                ['MR', 'Market Researcher', 'Learns the neighborhood, competitors, and peak hours.'],
+                ['MR', 'Local Market Researcher', 'Learns the neighborhood, competitors, and peak hours.'],
                 ['CD', 'Creative Director', 'Writes the ads and checks them against policy.'],
                 ['MB', 'Media Buyer', 'Gets quotes from every ad platform and buys.'],
                 ['PF', 'Performance Analyst', 'Moves budget to what works, every week.'],
