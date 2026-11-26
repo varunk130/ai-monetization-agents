@@ -131,7 +131,7 @@ export function CaseStudyView() {
         <div className="cs-head">
           <span className="cs-num">2</span>
           <div>
-            <h2>How big is the opportunity</h2>
+            <h2>The opportunity</h2>
             <p>AI assistants are becoming an ad surface inside a large existing market, while AI apps already earn billions from consumers.</p>
           </div>
         </div>
