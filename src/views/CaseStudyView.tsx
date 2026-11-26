@@ -122,7 +122,7 @@ export function CaseStudyView() {
           <div className="cs-card" style={{ ['--tone' as string]: 'var(--cs-2)' }}>
             <div className="ico">☕</div>
             <h3>Small advertisers are left behind</h3>
-            <p>A coffee shop owner has no media team. They split budget evenly, never move it, and won’t know how to buy a sponsored spot inside an AI assistant.</p>
+            <p>A coffee shop owner has no media team. They split budget evenly, never move it, and don’t know how to buy a sponsored spot inside an AI assistant.</p>
           </div>
         </div>
       </section>
