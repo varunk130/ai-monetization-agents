@@ -254,7 +254,7 @@ export function CaseStudyView() {
             ['Create', 'Creative Director writes three ad angles, scores them, and checks them against ad policy.', 'var(--cs-1)'],
             ['Buy (A2A)', 'Media Buyer gets quotes from four ad platforms’ own agents, including AI assistant ads.', 'var(--cs-4)'],
             ['Run and learn', 'Performance Analyst runs the campaign for four weeks, moving budget to the lowest cost per customer.', 'var(--cs-1)'],
-            ['Report', `${Math.round(coffee.ai)} customers vs ${Math.round(coffee.even)} with an even split for ${coffee.b.name}.`, 'var(--cs-5)'],
+            ['Report', `${Math.round(coffee.ai)} customers vs. ${Math.round(coffee.even)} with an even split for ${coffee.b.name}.`, 'var(--cs-5)'],
           ].map(([t, desc, tone], i) => (
             <div key={t} className={`cs-step${i === 2 ? ' ext' : ''}`} style={{ ['--tone' as string]: tone }}>
               <span className="n">{i + 1}</span>
@@ -376,7 +376,7 @@ export function CaseStudyView() {
           <div className="cs-result">
             <div className="v">+{pctTxt(coffee.gain)}</div>
             <div className="k">
-              customers for {coffee.b.name}, ${coffee.cpa.toFixed(2)} vs ${coffee.cpaEven.toFixed(2)} each
+              customers for {coffee.b.name}, ${coffee.cpa.toFixed(2)} vs. ${coffee.cpaEven.toFixed(2)} each
             </div>
           </div>
           <div className="cs-result">
