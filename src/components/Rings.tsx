@@ -15,7 +15,7 @@ export function Rings({ layers }: { layers: { label: string; value: string; colo
       </defs>
       {layers.map((l, i) => {
         const r = radii[i];
-        const cy = size - r - 10 + (i === 0 ? 0 : 0);
+        const cy = size - r - 10;
         return (
           <g key={l.label}>
             <circle cx={c} cy={cy} r={r} fill={`url(#ring${i})`} stroke="var(--surface)" strokeWidth={3} />
