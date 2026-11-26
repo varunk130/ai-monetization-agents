@@ -371,7 +371,7 @@ export function CaseStudyView() {
           </div>
           <div className="cs-result">
             <div className="v">{Math.round(d.aggressive.est_free_user_churn_pct / d.safe.est_free_user_churn_pct)}x</div>
-            <div className="k">churn avoided by the trust review: blocked plan vs. approved plan</div>
+            <div className="k">more churn in the blocked plan than the approved one</div>
           </div>
           <div className="cs-result">
             <div className="v">+{pctTxt(coffee.gain)}</div>
