@@ -73,7 +73,7 @@ const CASES: UseCase[] = [
   },
   {
     area: 'Growth', who: 'Marketplace sellers',
-    title: 'An ads co-pilot for small sellers',
+    title: 'An ads copilot for small sellers',
     problem: 'Most sellers on a marketplace never run promoted listings because bidding is confusing.',
     agents: 'Creative Director, Media Buyer, Performance Analyst, marketplace agent via A2A',
     newSkill: 'promoted-listings: keyword bids, ROAS targets',
