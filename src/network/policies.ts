@@ -317,7 +317,7 @@ const performanceAnalyst: Policy = (v, turn) => {
       '|---|---|',
       ...weeks.map((w) => `| ${w.week} | ${w.total_customers} |`),
       '',
-      'Learned vs benchmark: ' + CHANNELS.map((ch) => `${ch.short} ${belief[ch.id] >= 1 ? '+' : ''}${Math.round((belief[ch.id] - 1) * 100)}%`).join(', ') + '.',
+      'Learned vs. benchmark: ' + CHANNELS.map((ch) => `${ch.short} ${belief[ch.id] >= 1 ? '+' : ''}${Math.round((belief[ch.id] - 1) * 100)}%`).join(', ') + '.',
     ].join('\n'),
   };
 };
