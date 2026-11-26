@@ -147,7 +147,7 @@ function explainShift(last: WeekLog, next: Allocation): string[] {
   const amount = `$${Math.round(to.d)}`;
   const paused = next[from.id] === 0 && last.allocation[from.id] > 0 ? ` Paused ${name(from.id)} for now.` : '';
   if (cpa(to.id) < cpa(from.id))
-    return [`Moved ${amount} from ${name(from.id)} to ${name(to.id)}: ${name(to.id)} cost ${fmt(cpa(to.id))} per customer last week vs ${fmt(cpa(from.id))} on ${name(from.id)}.${paused}`];
+    return [`Moved ${amount} from ${name(from.id)} to ${name(to.id)}: ${name(to.id)} cost ${fmt(cpa(to.id))} per customer last week vs. ${fmt(cpa(from.id))} on ${name(from.id)}.${paused}`];
   return [`Moved ${amount} from ${name(from.id)} to ${name(to.id)}: ${name(from.id)} is past its sweet spot, so the next dollar buys more customers on ${name(to.id)}.${paused}`];
 }
 
