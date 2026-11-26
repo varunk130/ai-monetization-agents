@@ -208,7 +208,7 @@ export function CaseStudyView() {
           <div className="cs-card" style={{ ['--tone' as string]: 'var(--cs-1)' }}>
             <div className="big">12x</div>
             <h3>A new ad surface is opening</h3>
-            <p>AI search ads are forecast to grow about twelve times from 2026 to 2029 [1]. The rules for doing it well are being written now.</p>
+            <p>AI search ads are forecast to grow about twelve times from 2026 to 2029 <Ref n={1} />. The rules for doing it well are being written now.</p>
           </div>
           <div className="cs-card" style={{ ['--tone' as string]: 'var(--cs-4)' }}>
             <div className="big">Cost</div>
