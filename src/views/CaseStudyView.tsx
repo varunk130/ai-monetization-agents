@@ -253,7 +253,7 @@ export function CaseStudyView() {
             ['Research', 'Local Market Researcher: demand peaks, competitors, events, channel benchmarks.', 'var(--cs-1)'],
             ['Create', 'Creative Director writes three ad angles, scores them, and checks them against ad policy.', 'var(--cs-1)'],
             ['Buy (A2A)', 'Media Buyer gets quotes from four ad platforms’ own agents, including AI assistant ads.', 'var(--cs-4)'],
-            ['Run and learn', 'Performance Analyst runs 4 weeks, moving budget to the lowest cost per customer.', 'var(--cs-1)'],
+            ['Run and learn', 'Performance Analyst runs the campaign for four weeks, moving budget to the lowest cost per customer.', 'var(--cs-1)'],
             ['Report', `${Math.round(coffee.ai)} customers vs ${Math.round(coffee.even)} with an even split for ${coffee.b.name}.`, 'var(--cs-5)'],
           ].map(([t, desc, tone], i) => (
             <div key={t} className={`cs-step${i === 2 ? ' ext' : ''}`} style={{ ['--tone' as string]: tone }}>
