@@ -94,8 +94,6 @@ export function CaseStudyView() {
         </div>
       </header>
 
-      
-
       <section className="cs-section">
         <div className="cs-head">
           <span className="cs-num">1</span>
