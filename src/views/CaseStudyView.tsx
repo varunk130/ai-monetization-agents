@@ -476,7 +476,7 @@ export function CaseStudyView() {
           <div className="cs-phase" style={{ ['--tone' as string]: 'var(--cs-1)' }}>
             <div className="when">Pilot</div>
             <h4>Model routing and limits</h4>
-            <p>Ship the zero-visibility change first, then run the limit and price test with the sized sample.</p>
+            <p>Ship model routing first, since users won’t notice it, then run the limit and price test with the sized sample.</p>
           </div>
           <div className="cs-phase" style={{ ['--tone' as string]: 'var(--cs-2)' }}>
             <div className="when">Scale</div>
