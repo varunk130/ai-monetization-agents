@@ -129,7 +129,7 @@ const pricingAnalyst: Policy = (v, turn) => {
   const base = rows[0];
   return {
     final: [
-      `Recommend: ${describePricing(best.option)}. Monthly net ${usd(best.monthly_net_usd)} vs ${usd(base.monthly_net_usd)} today (+${usd(best.monthly_net_usd - base.monthly_net_usd)}).`,
+      `Recommend: ${describePricing(best.option)}. Monthly net ${usd(best.monthly_net_usd)} vs. ${usd(base.monthly_net_usd)} today (+${usd(best.monthly_net_usd - base.monthly_net_usd)}).`,
       `${best.free_users_hitting_limit_pct}% of free users would hit the limit; about ${best.free_dau_lost_per_month.toLocaleString()} free users lost per month.`,
       `Model routing alone is worth +${usd(rows[1].monthly_net_usd - base.monthly_net_usd)} with no visible change for users, so ship it first.`,
     ].join('\n'),
